@@ -9,7 +9,7 @@ def PerfectNum():
         print(sum)
         if sum == num:
             return True
-            return False
+        return False
 
 
 if PerfectNum(num):
