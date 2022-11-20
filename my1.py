@@ -1,6 +1,6 @@
-num=int(input("Enter the number: "))
 
-def PerfectNum(num):
+
+def PerfectNum():
     sum = 0
     for i in range(1, num//2+1):
         if num % i == 0:
@@ -12,7 +12,9 @@ def PerfectNum(num):
     return False
 
 
-if PerfectNum(num):
+num=int(input("Enter the number: "))
+
+if PerfectNum():
     print("Введенное число: ", num, " Совершенное")
 else:
     print("Введенное число: ", num, " не совершенное")
