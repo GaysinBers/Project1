@@ -1,4 +1,4 @@
-
+num=int(input("Enter the number: "))
 
 def PerfectNum():
     sum = 0
@@ -11,8 +11,6 @@ def PerfectNum():
         return True
     return False
 
-
-num=int(input("Enter the number: "))
 
 if PerfectNum():
     print("Введенное число: ", num, " Совершенное")
